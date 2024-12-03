@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <link rel="stylesheet" href="./getstarted.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Italiana:wght@400&display=swap" />
+</head>
+<body>
+    <div class="macbook-air-5">
+        <div class="frame-parent">
+            <div class="frame-wrapper">
+                <div class="frame-group">
+                    <div class="frame-container">
+                        <div class="rectangle-parent">
+                            <input type="text" name="username" class="input-field" placeholder="Логин" />
+                        </div>
+                        <div class="rectangle-parent">
+                            <input type="password" name="password" class="input-field" placeholder="Пароль" />
+                        </div>
+                        <div class="rectangle-parent">
+                            <input type="email" name="email" class="input-field" placeholder="Email" />
+                        </div>
+                        <div class="rectangle-parent">
+                            <input type="tel" name="phone" class="input-field" placeholder="Номер телефона" />
+                        </div>
+                    </div>
+                    <div class="frame-wrapper1">
+                        <div class="wrapper" id="frameContainer">
+                            <div class="div3">Зарегистрироваться</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="kurultay">Kurultay</div>
+        </div>
+    </div>
+
+    <script>
+        var frameContainer = document.getElementById("frameContainer");
+        if(frameContainer) {
+            frameContainer.addEventListener("click", function (e) {
+                // Получаем данные из формы
+                var username = document.querySelector('input[name="username"]').value;
+                var password = document.querySelector('input[name="password"]').value;
+                var email = document.querySelector('input[name="email"]').value;
+                var phone = document.querySelector('input[name="phone"]').value;
+
+                // Создаем объект данных для отправки на сервер
+                var data = {
+                    username: username,
+                    password: password,
+                    email: email,
+                    phone: phone
+                };
+
+                // Отправляем данные через fetch (AJAX)
+                fetch('/register', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(data),
+                })
+                .then(response => response.json())
+                .then(data => {
+                    // Если ответ сервера содержит роль пользователя, то перенаправляем
+                    if (data.role === 'admin') {
+                        window.location.href = '/adminprofil.html';  // Панель администратора
+                    } else if (data.role === 'user') {
+                        window.location.href = '/userpanel.html';  // Панель пользователя
+                    }
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                });
+            });
+        }
+    </script>
+</body>
+</html>

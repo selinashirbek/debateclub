@@ -1,0 +1,812 @@
+
+.frame-parent {
+  width: 100%;
+  height: 120vh;
+  background-color: #1f3c34; 
+  position: relative;
+  overflow: hidden; 
+}
+.full-frame-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  top: 0;
+  left: 0;
+}
+.desktop {
+  background-color:#122d1c;
+  color: white; 
+  height: 150vh; 
+  margin: 0; 
+  padding: 0;
+}
+
+.span {
+  font-weight: 600;
+  color: #fff;
+}
+.p {
+  margin: 0;
+  font-family: Nunito;
+}
+.kurultay2 {
+  font-family: Italiana;
+}
+.span2 {
+  font-weight: 600;
+  font-family: Nunito;
+}
+.kurultay1 {
+  margin: 0;
+  color: #e48929;
+}
+.kurultay {
+  position: absolute;
+  width: 40.03%;
+  top: 0px;
+  left: 0.32%;
+  line-height: 64.25px;
+  display: inline-block;
+  height: 291px;
+  color: #163a24;
+}
+.i {
+  position: absolute;
+  width: 34.16%;
+  top: 359px;
+  left: 0%;
+  font-size: 23px;
+  line-height: 27px;
+  display: inline-block;
+  color: #fbfaf7;
+  height: 84px;
+  font-family: Nunito;
+}
+.icon {
+  position: absolute;
+  top: 111px;
+  left: 376px;
+  width: 868px;
+  height: 664px;
+  object-fit: cover;
+}
+.kurultay-parent {
+  position: absolute;
+  top: 174px;
+  left: 62px;
+  width: 1244px;
+  height: 775px;
+  font-size: 64px;
+}
+.frame-child {
+  position: absolute;
+  top: 70px;
+  left: 292px;
+  background-color: #fff;
+  width: 1284px;
+  height: 1400px;
+}
+.frame-item {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 973px;
+  height: 1081px;
+  object-fit: contain;
+}
+.era-2-icon {
+  position: absolute;
+  top: 397px;
+  left: 259px;
+  border-radius: 27px;
+  width: 456.9px;
+  height: 335px;
+  object-fit: contain;
+}
+.polygon-parent {
+  position: absolute;
+  top: -4px;
+  left: 844px;
+  width: 973px;
+  height: 1081px;
+}
+.frame-inner {
+  position: absolute;
+  top: -79px;
+  left: -17px;
+  width: 1234px;
+  height: 1155px;
+  object-fit: contain;
+}
+.b {
+  position: absolute;
+  top: 368px;
+  left: 375px;
+  line-height: 54px;
+  display: inline-block;
+  width: 578px;
+  height: 128px;
+  font-family: Nunito;
+}
+.polygon-group {
+  position: absolute;
+  top: 466px;
+  left: 0px;
+  width: 1151px;
+  height: 1081px;
+  font-size: 48px;
+}
+.rectangle-div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 70px;
+  background-color: #ff8800;
+  width: 619px;
+  height: 327px;
+}
+.blank-line2 {
+  margin: 0;
+  font-size: 18px;
+}
+.aitu-container {
+  position: absolute;
+  top: calc(50% - 94.5px);
+  left: calc(50% - 285.5px);
+  line-height: 27px;
+  display: inline-block;
+  width: 571px;
+  font-family: Nunito;
+}
+.rectangle-group {
+  position: absolute;
+  top: 396px;
+  left: 334px;
+  width: 619px;
+  height: 327px;
+  color: #000;
+}
+.frame-child1 {
+  position: absolute;
+  top: 29px;
+  left: -18px;
+  border-radius: 70px;
+  background-color: #ff8800;
+  width: 682px;
+  height: 294px;
+}
+.div {
+  position: absolute;
+  top: 94px;
+  left: 32px;
+  line-height: 27px;
+  display: inline-block;
+  width: 607px;
+  height: 200px;
+}
+.rectangle-container {
+  position: absolute;
+  top: 1077px;
+  left: 334px;
+  width: 682px;
+  height: 352px;
+  color: #000;
+}
+.frame-child2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 40px;
+  background-color: #122d1c;
+  width: 503px;
+  height: 250px;
+}
+.b1 {
+  position: absolute;
+  top: calc(50% - 81px);
+  left: calc(50% - 241.5px);
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 483px;
+  font-family: Nunito;
+}
+.frame-div {
+  position: absolute;
+  top: 799px;
+  left: 968px;
+  width: 503px;
+  height: 250px;
+  text-align: center;
+}
+.frame-icon {
+  position: absolute;
+  top: 108px;
+  left: 296px;
+  width: 1160px;
+  height: 1261px;
+  object-fit: contain;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 771px;
+  left: -292px;
+  width: 1865px;
+  height: 1547px;
+}
+.div1 {
+  position: absolute;
+  top: 745px;
+  left: 643px;
+  line-height: 27px;
+  color: #000;
+}
+.b2 {
+  position: absolute;
+  top: 44px;
+  left: 0px;
+  line-height: 54px;
+  display: inline-block;
+  width: 507px;
+  height: 119px;
+}
+.wrapper {
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  width: 1182px;
+  height: 402px;
+}
+.frame-icon1 {
+  position: absolute;
+  width: 25%;
+  top: 0px;
+  right: 75%;
+  left: 0%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 239px;
+  object-fit: cover;
+}
+
+.tick-square-icon {
+  position: absolute;
+  height: 47.24%;
+  width: 40.68%;
+  top: 2.81%;
+  right: 20.68%;
+  bottom: 49.95%;
+  left: 38.64%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.shield-done-icon {
+  position: absolute;
+  height: 49.18%;
+  width: 40.68%;
+  top: 0.05%;
+  right: 24.75%;
+  bottom: 50.77%;
+  left: 34.58%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.user-icon {
+  position: absolute;
+  height: 47.24%;
+  width: 10.7%;
+  top: 0.44%;
+  right: 29.64%;
+  bottom: 52.31%;
+  left: 59.66%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame {
+  position: absolute;
+  top: 230px;
+  left: calc(50% - 592.5px);
+  width: 1180px;
+  height: 254px;
+  text-align: center;
+  font-size: 18px;
+  color: #fbfaf7;
+}
+.frame-parent {
+  position: absolute;
+  top: 2318px;
+  left: 50px;
+  width: 1185px;
+  height: 484px;
+  font-size: 48px;
+  background-color:#122d1c;
+}
+.div6 {
+  position: absolute;
+  top: 330px;
+  left: 649px;
+  line-height: 27px;
+  display: inline-block;
+  width: 612px;
+  height: 232px;
+  font-family: Nunito;
+}
+.bagnur2-1-icon {
+  position: absolute;
+  top: 128.89px;
+  left: 258.41px;
+  width: 336.9px;
+  height: 375px;
+  object-fit: contain;
+}
+.bagnur1-1-icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 345.2px;
+  height: 389.8px;
+  object-fit: contain;
+}
+.bagnur2-1-parent {
+  position: absolute;
+  top: 217.24px;
+  left: 28.64px;
+  width: 595.3px;
+  height: 503.9px;
+}
+.aitu-container1 {
+  position: absolute;
+  top: 71px;
+  left: 122px;
+  line-height: 27px;
+}
+.b3 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 64px;
+  line-height: 54px;
+  display: inline-block;
+  width: 1247px;
+  height: 134px;
+  font-family: Nunito;
+}
+.aitu-parent {
+  position: absolute;
+  top: 62px;
+  left: 0px;
+  width: 1247px;
+  height: 134px;
+  text-align: center;
+}
+.parent {
+  position: absolute;
+  top: 3032px;
+  left: -2px;
+  background-color: #f2efe6;
+  width: 1282px;
+  height: 734px;
+  text-align: right;
+  font-size: 32px;
+  color: #000;
+}
+.rectangle {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  right: 0%;
+  left: 0%;
+  background-color: #163a24;
+  height: 415px;
+}
+.b4 {
+  position: absolute;
+  top: calc(50% - 36.5px);
+  left: calc(50% - 305px);
+  line-height: 54px;
+  display: inline-block;
+  width: 611px;
+  height: 74px;
+  font-family: Nunito;
+}
+.frame-icon2 {
+  position: absolute;
+  width: 23.44%;
+  top: 15px;
+  right: 0%;
+  left: 76.56%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 400px;
+}
+.frame-icon3 {
+  position: absolute;
+  width: 23.44%;
+  top: 15px;
+  right: 76.56%;
+  left: 0%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 400px;
+}
+.frame4 {
+  position: absolute;
+  width: 100%;
+  top: 3766px;
+  right: 0%;
+  left: 0%;
+  height: 415px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 48px;
+}
+.kurultay3 {
+  position: absolute;
+  top: -5px;
+  left: 47px;
+  line-height: 27px;
+  display: inline-block;
+  width: 278px;
+}
+.rectangle-icon {
+  position: absolute;
+  top: 25px;
+  left: 376px;
+  width: 330px;
+  height: 4px;
+}
+.b5 {
+  position: absolute;
+  top: -19px;
+  left: calc(50% - 55.45px);
+  line-height: 54px;
+  display: inline-block;
+  text-align: center;
+  width: 144px;
+  height: 44px;
+}
+.b6 {
+  position: absolute;
+  top: -4px;
+  right: -75.1px;
+  line-height: 27px;
+  display: inline-block;
+  color: #122d1c;
+  width: 228px;
+  height: 27px;
+}
+.frame6 {
+  position: absolute;
+  width: 81.95%;
+  top: 13px;
+  right: 10.4%;
+  left: 7.66%;
+  height: 84px;
+  text-align: left;
+  font-size: 20px;
+}
+.frame-child3 {
+  position: absolute;
+  top: 38px;
+  left: 904px;
+  width: 330px;
+  height: 4px;
+}
+.frame-child4 {
+  position: absolute;
+  top: 47px;
+  left: 912px;
+  width: 330px;
+  height: 6px;
+}
+.frame-child5 {
+  position: absolute;
+  top: 266px;
+  left: calc(50% - 623px);
+  width: 1243px;
+  height: 71px;
+  object-fit: cover;
+}
+.rectangle1 {
+  position: absolute;
+  width: 92.97%;
+  top: 247px;
+  right: 3.52%;
+  left: 3.52%;
+  background-color: #122d1c;
+  height: 3px;
+}
+.rectangle2 {
+  position: absolute;
+  width: 176.56%;
+  top: 0px;
+  right: -76.56%;
+  left: 0%;
+  height: 70px;
+}
+.telefon {
+  position: absolute;
+  top: 20px; 
+  left: 20px;
+  margin-top: -50px; 
+  margin-left: -20px;
+}
+
+.message-icon {
+  position: absolute;
+  top: 100px;
+  left: 100px; 
+}
+.bot-icon {
+  position: absolute;
+  margin-left: -346px;
+  margin-top: 30px;
+}
+.kurultaydebategmailcom {
+  position: absolute;
+  top: -14px;
+  left: calc(50% - 320px);
+  line-height: 54px;
+  display: inline-block;
+  width: 195px;
+  height: 41px;
+}
+.kyrultaibot {
+  position: absolute;
+  top: 14px;
+  left: -2px;
+  line-height: 54px;
+  display: inline-block;
+  width: 161px;
+  height: 36px;
+}
+.message-icon {
+  position: absolute;
+  height: 27.86%;
+  width: 3.05%;
+  top: 2.86%;
+  right: 97.23%;
+  bottom: 69.29%;
+  left: -0.28%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+
+.icon {
+    width: 1000px;
+    height: 1000px;
+    object-fit: cover;
+}
+
+.b7 {
+  align-self: stretch;
+  position: relative;
+  line-height: 27px;
+  display: inline-block;
+  height: 27px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.b8 {
+  align-self: stretch;
+  position: relative;
+  line-height: 27px;
+  cursor: pointer;
+  font-family: Nunito;
+}
+.group {
+  position: absolute;
+  top: -32px;
+  left: 464px;
+  width: 186px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2px;
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+}
+.frame7 {
+  position: absolute;
+  width: 55%;
+  top: 114px;
+  right: 2.42%;
+  left: 42.58%;
+  height: 70px;
+}
+.aitulog-1-icon {
+  position: absolute;
+  top: 72px;
+  left: 87px;
+  width: 175.7px;
+  height: 100px;
+  object-fit: cover;
+}
+.send-icon {
+  position: absolute;
+  height: 5.89%;
+  width: 1.52%;
+  top: 64.95%;
+  right: 97.07%;
+  bottom: 29.16%;
+  left: 1.41%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.b10 {
+  position: absolute;
+  top: 69px;
+  left: 568px;
+  line-height: 54px;
+  display: inline-block;
+  width: 125px;
+  height: 33px;
+  margin-left: -10px;
+}
+.frame-child6 {
+  position: absolute;
+  top: 38px;
+  left: 22px;
+  width: 330px;
+  height: 4px;
+}
+.frame5 {
+  position: absolute;
+  width: 100%;
+  top: 4181px;
+  right: 0%;
+  left: 0%;
+  background-color: #fff;
+  height: 321px;
+  text-align: center;
+  font-size: 15px;
+  color: #194429;
+}
+.f {
+  position: absolute;
+  top: 2934px;
+  left: 622px;
+  font-size: 16px;
+  line-height: 27px;
+  display: inline-block;
+  color: #122d1c;
+  width: 12px;
+  height: 20px;
+}
+.rectangle3 {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  right: 0%;
+  left: 0%;
+  background-color: #122d1c;
+  border-bottom: 2px solid #fff;
+  box-sizing: border-box;
+  height: 98px;
+}
+.frame10 {
+  position: absolute;
+  width: 12.96%;
+  top: 0px;
+  right: 87.04%;
+  left: 0%;
+  height: 58px;
+  overflow: hidden;
+}
+.log-in {
+  position: absolute;
+  width: 20.08%;
+  top: 20px;
+  left: 0%;
+  display: inline-block;
+  cursor: pointer;
+}
+.rectangle4 {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  right: 0%;
+  left: 0%;
+  border-radius: 160px;
+  background-color: #198c36;
+  height: 52px;
+}
+.get-started {
+  position: absolute;
+  width: 64.54%;
+  top: 15px;
+  left: 17.73%;
+  display: inline-block;
+}
+
+.get-started:hover{
+  background-color: white;
+  color: black;
+
+}
+.frame12 {
+  position: absolute;
+  width: 56.63%;
+  top: 0px;
+  right: -0.8%;
+  left: 44.18%;
+  height: 52px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.log-in-parent {
+  position: absolute;
+  top: -14.5px;
+  left: 331px;
+  width: 249px;
+  height: 52px;
+}
+.frame11 {
+  position: absolute;
+  width: 50%;
+  top: 15.5px;
+  right: 0%;
+  left: 50%;
+  height: 27px;
+}
+.kurultay4 {
+  position: absolute;
+  top: calc(50% - 23px);
+  left: calc(50% - 520.51px);
+  font-size: 40px;
+  font-family: Italiana;
+  color: #f9c74f;
+  text-align: left;
+  text-shadow: 0px 18px 4px rgba(0, 0, 0, 0.25);
+}
+.frame9 {
+  position: absolute;
+  width: 81.95%;
+  top: 20px;
+  right: 9.03%;
+  left: 9.03%;
+  height: 58px;
+}
+.frame8 {
+  position: fixed;
+  width: 100.39%;
+  top: 0px;
+  right: 0%;
+  left: -0.39%;
+  height: 100px;
+  text-align: right;
+  font-size: 16px;
+  color: #fbfaf7;
+  font-family: 'Noto Sans';
+}
+.macbook-air-6 {
+  width: 100%;
+  position: relative;
+  background-color: #122d1c;
+  height: 4502px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Nunito;
+}
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <link rel="stylesheet" href="./loginparol.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Italiana:wght@400&display=swap" />
+</head>
+<body>
+    <div class="macbook-air-1">
+        <div class="macbook-air-1-inner">
+            <div class="frame-parent">
+                <div class="frame-group">
+                    <div class="rectangle-group">
+                        <div class="div">Логин</div>
+                        <input type="text" name="username" class="input-field" placeholder="Введите логин" />
+                    </div>
+                    <div class="rectangle-group">
+                        <div class="div">Пароль</div>
+                        <input type="password" name="password" class="input-field" placeholder="Введите пароль" />
+                    </div>
+                </div>
+                <div class="frame-wrapper" id="frameContainer">
+                    <div class="div2">Войти</div>
+                </div>
+            </div>
+        </div>
+        <div class="kurultay">Kurultay</div>
+    </div>
+
+    <script>
+        var frameContainer = document.getElementById("frameContainer");
+        if(frameContainer) {
+            frameContainer.addEventListener("click", function (e) {
+                var username = document.querySelector('input[name="username"]').value;
+                var password = document.querySelector('input[name="password"]').value;
+
+                var data = {
+                    username: username,
+                    password: password
+                };
+
+                fetch('/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(data),
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.role === 'admin') {
+                        window.location.href = '/admin-dashboard';
+                    } else if (data.role === 'user') {
+                        window.location.href = '/user-dashboard';
+                    } else {
+                        alert('Неверный логин или пароль!');
+                    }
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                });
+            });
+        }
+    </script>
+</body>
+</html>
